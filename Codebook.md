@@ -1,6 +1,7 @@
 # Codebook 
 Please see run.analysis.R
 
+## Inputs
 - 'activity_labels.txt': Links the class labels with their activity name.
 
 - 'train/X_train.txt': Training set.
@@ -12,26 +13,49 @@ Please see run.analysis.R
 - 'test/y_test.txt': Test labels.
 
 
+## Outputs
+- subject
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- activity
+
+- activity label
+
+- tBodyAcc-XYZ
+
+- tGravityAcc-XYZ
+
+- tBodyAccJerk-XYZ
+
+- tBodyGyro-XYZ
+
+- tBodyGyroJerk-XYZ
+
+- tBodyAccMag
+
+- tGravityAccMag
+
+- tBodyAccJerkMag
+
+- tBodyGyroMag
+
+- tBodyGyroJerkMag
+
+- fBodyAcc-XYZ
+
+- fBodyAccJerk-XYZ
+
+- fBodyGyro-XYZ
+
+- fBodyAccMag
+
+- fBodyAccJerkMag
+
+- fBodyGyroMag
+
+- fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+- mean(): Mean value
+
+- std(): Standard deviation
